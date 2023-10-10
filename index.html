@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div>
+        <div>
+            <label for="">Ingresa la figura que desea:
+                <p>1=Cuadrado, 2=Rectangulo, 3=Triangulo</p>
+            </label>
+            <input type="number" id="inputFigura" onkeyup="Figura()">
+        </div>
+        <div>
+            <label id="labelBase" style="display: none">Base</label>
+            <input type="number" id="inputBase" style="display: none">
+        </div>
+        <div>
+            <label id="labelAltura" style="display: none">Altura</label>
+            <input type="number" id="inputAltura" style="display: none">
+        </div>
+        <button onclick="area()">Area</button>
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
